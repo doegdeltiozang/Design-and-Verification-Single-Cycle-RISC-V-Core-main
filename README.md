@@ -25,17 +25,8 @@
 ![Milestones](https://img.shields.io/badge/milestones-11-6B4EFF.svg)
 ![License](https://img.shields.io/badge/license-Apache--2.0-C76300.svg)
 
-This repository is a modular 32-bit RISC-V single-cycle processor project built in
-Verilog-2001 and verified through eleven independently executable milestones.
-The repository is organized as a technical portfolio: a reviewer can inspect a
-small block, run its self-checking testbench, follow its integration path, and
-then reproduce the final architectural regression.
-
-This release remains fully English across directory names, source comments,
-testbenches, scripts, messages, diagrams, READMEs, technical documents, the
-Excel ISA workbook, and the complete PDF report. Version 6 preserves the RTL
-behavior and verification acceptance criteria while replacing every engineering
-figure with a native Draw.io source and synchronized release exports.
+This repository contains modular single-cycle 32-bit RV32I processor by integrating the program counter, decoder, control unit, ALU,
+register file, immediate generator, branch logic and separate instruction/data memories into one top-level datapath.
 
 <p align="center">
   <img src="Diagrams/Complete_RV32I_Architecture_Diagram.png" alt="Nexvantis single-cycle processor architecture" width="100%">
